@@ -16,6 +16,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
 import { SolarDcComponent } from './solar-dc/solar-dc.component';
+import { DCWireComponent } from './dc-wire/dc-wire.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SolarDcComponent } from './solar-dc/solar-dc.component';
     GalleryComponent,
     AboutComponent,
     FormComponent,
-    SolarDcComponent
+    SolarDcComponent,
+    DCWireComponent
   ],
   imports: [
     BrowserModule,
